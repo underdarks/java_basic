@@ -20,10 +20,12 @@ public class Man extends Person{
 
         //클래스명 변수명 = new 클래스명
         Man man = new Man("홍길동2",30,"개발자");
-        man.run();
+        man.shoot();
 
         //신기하죠
+        //다형성이 안되요
         Animal ani = new Man("홍길동3",30,"개발자");
+
         Person p =new Man("홍길동3",30,"개발자");
         p.name="d";
 
